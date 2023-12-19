@@ -1,0 +1,40 @@
+.digicrop-dashboard {
+    width: 1519px;
+    height: 982px;
+    top: 3799px;
+}
+
+.header-of-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1519px;
+    height: 178px;
+    box-shadow: 0px 1px 3px 0px #68676794;
+    gap: 26px;
+}
+
+.body-component {
+    width: 100%;
+}
+
+.Row {
+    width: 100% !important;
+    height: 804px;
+    /* --bs-gutter-x: -1rem !important; */
+}
+
+#body {
+    /* width: 100%; */
+}
+
+.row-3 {
+    transform: translate(0px,-47px);
+    
+}
+.MuiBox-root .css-56wket{
+    /* transform: translate(10px, -93px); */
+}
+.css-1rdyknl{
+    margin-right: 16%;
+}

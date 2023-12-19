@@ -1,0 +1,158 @@
+.details-and-report {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20px;
+    /* margin-top: 20px; */
+}
+
+.new-cultivation {
+    display: flex;
+    gap: 75px;
+    /* justify-content: space-between; */
+}
+.new-cultivation p{
+
+}
+
+.home {
+    display: flex;
+    /* justify-content: center; */
+    gap: 13px;
+    /* flex-direction: row; */
+    width: 100%;
+}
+
+.home p {
+    font-weight: bold;
+    /* margin-left: 5%; */
+}
+
+.view-detals p {
+    font-weight: bold;
+    /* margin-right: 3%; */
+
+}
+
+.card-body-connections {
+    height: 104px;
+    /* width: 226px; */
+    border-radius: 8px;
+    background-color: #87C03F94;
+    cursor: pointer;
+}
+
+.card-body-connections-1 {
+    height: 104px;
+    /* width: 226px; */
+    border-radius: 8px;
+    background-color: #87C03F33;
+}
+
+.card-body-connections-2 {
+    height: 104px;
+    /* width: 226px; */
+    border-radius: 8px;
+    background-color: #87C03F87;
+}
+
+.card-body-connections-3 {
+    height: 104px;
+    /* width: 226px; */
+    border-radius: 8px;
+    background-color: #034F9D2E;
+}
+
+.card-body-connections-4 {
+    height: 104px;
+    /* width: 226px; */
+    border-radius: 8px;
+    background-color: #034F9D9E;
+}
+
+.card-body {
+    height: 187px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .row-3{ */
+/* display: flex;
+        display: flex;
+    justify-content: center;
+    flex-direction: column; */
+/* } */
+.btn {
+    width: 155px;
+    border-color: #034F9D;
+}
+
+.btn-primary {
+    background-color: #034F9D;
+}
+
+.col-sm-4 {
+    width: 400px;
+    height: 187px;
+}
+
+.col-sm-2 {
+    width: 226px;
+    height: 104px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 42px; */
+    /* width: 100%; */
+}
+
+.btn-details {
+    display: flex;
+    gap: 10px;
+}
+
+.registered-farmer p {
+    /* font-weight: 500 !important; */
+}
+
+.By-Location p {
+    /* font-weight: 500 !important; */
+}
+
+.By-vegitable p {
+    /* font-weight: 500 !important; */
+}
+
+.By-Pruning-Date p {
+    /* font-weight: 500 !important; */
+}
+
+.By-Veriety p {
+    /* font-weight: 500 !important; */
+}
+
+.home-card {
+    width: 226px;
+}
+
+.sidebar-component {
+    background-color: white;
+    height: 802px;
+    width: 219px;
+}
+.farmer-value{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    justify-content: space-around;
+}
+.farmer-value p{
+    color: #034F9D;
+    /* text-align: center; */
+    margin-top: -4px;
+    font-size: 20px;
+}
+

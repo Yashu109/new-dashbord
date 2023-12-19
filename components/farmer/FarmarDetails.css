@@ -1,0 +1,229 @@
+
+
+.farmer-details-container {
+    /* padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px; */
+    display: flex;
+    /* width: 100%; */
+  margin: -22px;
+
+  }
+  
+  .farmer-details-content {
+    flex: 1;
+    width: 1290px;
+  }
+  
+  .header-bar {
+    background-color:rgb(240, 243, 245);
+    color: #6A6767;
+      }
+      
+  .header-bar , h2{
+    text-align:left;
+    padding: 0px 10px;
+
+  }
+
+  .farmer-details {
+    
+    /* padding: 10px; */
+   
+    border-radius: 8px;
+  }
+  
+  .farmer-details ,p {
+    /* color: #6A6767; */
+    /* display: flex; */
+    align-items: center;
+    /* padding-left: 20px; */
+    margin: 5px 0;
+    flex-direction: row; 
+  }
+  
+  
+  .farmer-details-username{
+    display: flex;
+    gap: 30px;
+    
+  }
+  .farmer-details svg {
+    vertical-align: middle;
+    margin-right: 5px; 
+  }
+    
+  .farmer-details svg.icon {
+    color: lightgray;
+  }
+  
+  .farmer-details-username svg.location-icon {
+    color: red;
+  }
+  .selectedTab{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .plots-tab{
+    border-color: #007bff;
+  }
+  .plots-tab P.selected{
+    border-color: #007bff;
+  }
+  
+  .fruits-tabs {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .plots-tab button,
+  .fruits-tabs button
+  {
+    margin-right: 10px;
+  }
+  
+  .crop-details-heading {
+    margin: 10px 0;
+  }
+  
+  .back-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin-top: 10px; */
+    width: 1275px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  .data-table th{
+    background-color:rgba(239, 239, 239, 0.52);
+    
+    color: #6A6767;
+  }
+
+  .data-table{
+    width: 100%;
+  }
+  .back-table{
+    background-color: rgb(240, 243, 245);
+    /* margin-top: -22px; */
+    padding: 10px;
+  }
+  .crop-details-heading{
+    margin-left: 20px;
+  }
+  .crop-varieties {
+    display: flex;
+  }
+  
+  .crop-varieties button {
+    background-color:white;
+    border:none;
+    border-radius: 0;
+    padding: 8px 12px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+  
+  .crop-varieties button::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #007bff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-out;
+  }
+  
+  .crop-varieties button.selected::after {
+    width: 100%;
+    background-color:rgb(240, 243, 245);
+    
+  }
+
+  
+  
+  .crop-varieties button:hover::after,
+  .crop-varieties button:focus::after {
+    width: 100%;
+  }
+  
+ 
+ 
+  .cropdetail h4{
+   padding: 10px;
+  display: inline-flex;
+   
+   
+  }
+
+ 
+.fruits-tabs {
+  display: flex;
+  background-color: rgba(3, 79, 157, 0.15);
+  /* opacity: 0.7; */
+}
+
+.fruits-tabs p {
+  
+  padding: 10px;
+  margin-left: 15px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  color: #1F2633;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.fruits-tabs p.selected {
+  background-color: #034F9D;
+  color: white;
+}
+
+.data-tabs{
+  display: flex;
+  justify-content: space-around !important;
+}
+.schedule-container {
+  max-height: 450px !important; 
+  overflow-y: auto;
+}
+.hide-min-max .min, .hide-min-max .max {
+  display: none !important;
+}
+.segment-value{
+  display: none;
+}
+/* .css-19kzrtu{
+  padding: 0px !important;
+} */
+/* .speedometer{
+  max-height: 500px;
+  overflow-y: scroll;
+} */
+.speedometer-text{
+  display: flex;
+  width: 80%;
+  margin-right: 70px;
+}
+.imgaesandchart{
+  display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.recentimages-speedometer{
+
+}
+.linechart-speedometer{
+  
+}

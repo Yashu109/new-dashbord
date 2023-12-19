@@ -1,0 +1,21 @@
+.canvasjs-chart-credit{
+    display:none
+}
+.canvasjs-slider-panel{
+
+}
+.canvasjs-navigator-panel{
+    /* display:none */
+}
+.canvasjs-chart-canvas{
+    /* display: none; */    
+    /* z-index: 2; */
+}
+.spinner-div-newLinechart{
+    display: flex;
+    justify-content: center;
+    height: 19rem;
+    /* top: 50%; */
+    transform: translate(0%, 35%);
+
+}

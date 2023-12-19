@@ -1,0 +1,62 @@
+.sidebar{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 45vh;
+gap: 10px;
+}
+.sidebar p{
+  text-align: center;
+}
+
+.DashboardOutlinedIcon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 14px;
+    background-color: #034F9D;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 42px;
+    width: 192px;
+}
+.SmsOutlinedIcon{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    gap: 14px;
+    margin-right: 15px;
+}
+.MarkChatUnreadOutlinedIcon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 14px;
+}
+.SettingsOutlinedIcon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26px;
+    gap: 14px;
+}
+.GroupAddOutlinedIcon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 14px;
+    margin-right: 15px;
+
+}
+.HelpCenterIcon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 14px;
+    margin-right: 25px;
+
+}
+.css-i4bv87-MuiSvgIcon-root{
+    height: 2.3rem !important;
+
+}

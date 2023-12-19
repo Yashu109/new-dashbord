@@ -1,0 +1,88 @@
+#nav-dropdown{
+    color: #FFFFFF !important;
+    background-color: #034F9D;
+    width: 196px;
+    height: 46px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 140px;
+    /* margin-bottom: -100px; */
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.Logo-image {
+    width: 48px;
+    height: 48px;
+}
+.digi-crop{
+
+}
+.Logo-main{
+    display: flex;
+    width: 196px;
+    height: 48px;
+}
+span[name="crop"] {
+    color: #87C03F;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+span[name="digi"] {
+    color: #034F9D;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.search {
+    display: flex;
+    height: 46px;
+    border-radius: 6px;
+    width: 559px;
+    text-align: center;
+    display: flex;
+    justify-content: center ;
+}
+.searchicon{
+    position: absolute;
+    margin-right: 30%;
+    margin-top: 10px;
+    width: 20.4px;
+    height: 20.4px;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* margin-top: 40px; */
+    justify-content: space-evenly;
+}
+
+.Mainheadercontent1{
+    display: flex;
+    /* width: 10%; */
+    /* justify-content: start; */
+    margin-left: 9%;
+    margin-top: 15px;
+}
+.username-tab{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 181px;
+    height: 32px;
+}
+span[name='username']{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 85px;
+}
+.mainheadercomponent{
+
+}

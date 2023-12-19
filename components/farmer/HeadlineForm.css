@@ -1,0 +1,57 @@
+.sop-label {
+  margin-left: -800px;
+  margin-top: 30px;
+
+}
+
+
+.butn1{
+  transform: translate(600px,-60px);
+  border-radius: 10;
+  width: 10%;
+  background-color: green;
+}
+
+.butn{
+  transform: translate(230px, -17.3px);
+  border-radius: 10;
+  width: 10%;
+  background-color: green;
+}
+.schedule-container1 {
+  max-height: 350px;
+  
+  overflow-y: auto;
+}
+
+/* CSS for the table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /* transform: translate(-80px, 0px); */
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style for table cells */
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style for alternating rows (optional) */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect for table rows (optional) */
+tr:hover {
+  background-color: #ddd;
+}

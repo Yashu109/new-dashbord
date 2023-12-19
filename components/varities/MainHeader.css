@@ -1,0 +1,30 @@
+.dropdown {
+    display: flex;
+    margin-left: 10%;
+    /* height: 2.5rem; */
+    margin-top:1% ;
+    width: 12%;
+    border-radius: 7px;
+    background-color: #034F9D;
+    color: white;
+}
+/* MainHeader.css */
+
+.viewbycatogeries {
+    display: flex;
+    align-items: center;
+    height: 2.9rem;
+    width: 12%;
+    border-radius: 7px;
+    background-color: #034F9D;
+    color: white;
+    cursor: pointer;
+    transform: translate(148px, 20px);
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+}
+
+
